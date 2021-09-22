@@ -56,15 +56,55 @@
 		F42E327326FBBD1B00688488 /* AnimationApp */ = {
 			isa = PBXGroup;
 			children = (
-				F42E327426FBBD1B00688488 /* AppDelegate.swift */,
-				F42E327626FBBD1B00688488 /* SceneDelegate.swift */,
-				F42E327826FBBD1B00688488 /* ViewController.swift */,
-				F42E327A26FBBD1B00688488 /* Main.storyboard */,
-				F42E327D26FBBD1C00688488 /* Assets.xcassets */,
-				F42E327F26FBBD1C00688488 /* LaunchScreen.storyboard */,
-				F42E328226FBBD1C00688488 /* Info.plist */,
+				F4EABBAF26FBC6DD00880980 /* ViewControllers */,
+				F4EABBB026FBC6F100880980 /* Storyboards */,
+				F4EABBB326FBC72D00880980 /* Models */,
+				F4EABBB126FBC6FD00880980 /* Resources */,
+				F4EABBB226FBC70B00880980 /* App */,
 			);
 			path = AnimationApp;
+			sourceTree = "<group>";
+		};
+		F4EABBAF26FBC6DD00880980 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F42E327826FBBD1B00688488 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F4EABBB026FBC6F100880980 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F42E327A26FBBD1B00688488 /* Main.storyboard */,
+				F42E327F26FBBD1C00688488 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F4EABBB126FBC6FD00880980 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F42E327D26FBBD1C00688488 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4EABBB226FBC70B00880980 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F42E327426FBBD1B00688488 /* AppDelegate.swift */,
+				F42E327626FBBD1B00688488 /* SceneDelegate.swift */,
+				F42E328226FBBD1C00688488 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F4EABBB326FBC72D00880980 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z88UC283VS;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z88UC283VS;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
